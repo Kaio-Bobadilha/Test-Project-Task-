@@ -11,7 +11,6 @@ const port = 3000;
 app.use(cors());
 
 // Endpoint to scrape Amazon search results
-// Endpoint to scrape Amazon search results
 app.get('/api/scrape', async (req, res) => {
   const keyword = req.query.keyword;
 
